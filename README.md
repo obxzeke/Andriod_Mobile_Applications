@@ -4,11 +4,9 @@ Each directory represents a distinct project from the Mobile Application Develop
 ## How to run
 To execute these programs, Android Studio must be installed with Android API 34.
 ## Demos
-### Assignment 3 - Managing Activities
-
-### Assignment 4 - Working with Fragments
-
+### Assignment 6 - Scrollable lists (RecyclerViews)
+https://youtu.be/GZcDjzuygEI
 ### Assignment 5 - Managing Scrollable Lists
-
-### Assignment 6 - More on Scrollable lists (RecyclerViews)
-
+https://youtu.be/8zFFAH1vZ7E
+### Assignment 4 - Working with Fragments
+https://youtu.be/O1N6ssu_NnM
