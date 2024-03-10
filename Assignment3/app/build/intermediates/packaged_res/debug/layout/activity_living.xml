@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LivingActivity">
+
+    <TextView
+        android:id="@+id/livingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Living Status"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewIncomeSeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Which of the following describes your living status?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/livingTitle" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupLiving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIncomeSeek">
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingHomeowner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Homeowner" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingRenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Renter" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingLessee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lessee" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingPreferNotToSay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prefer not to say" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnLivingSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnLivingCancel" />
+
+    <Button
+        android:id="@+id/btnLivingCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnLivingSubmit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

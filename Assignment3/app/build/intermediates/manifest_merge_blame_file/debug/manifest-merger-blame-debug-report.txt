@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.uncc.assignment3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+12        android:name="edu.uncc.assignment3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="edu.uncc.assignment3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:5:5-50:19
+18        android:allowBackup="true"
+18-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.10.0] C:\Users\Zeke\.gradle\caches\transforms-3\ed428042d900448fb7778886daa98007\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Assignment3" >
+29-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:13:9-49
+30        <activity
+30-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="edu.uncc.assignment3.ProfileActivity"
+31-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:16:13-44
+32            android:exported="false" />
+32-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="edu.uncc.assignment3.IncomeActivity"
+34-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:19:13-43
+35            android:exported="false" />
+35-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="edu.uncc.assignment3.LivingActivity"
+37-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:22:13-43
+38            android:exported="false" />
+38-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="edu.uncc.assignment3.MaritalActivity"
+40-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:25:13-44
+41            android:exported="false" />
+41-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="edu.uncc.assignment3.EducationActivity"
+43-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:28:13-46
+44            android:exported="false" />
+44-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="edu.uncc.assignment3.DemographicActivity"
+46-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:31:13-48
+47            android:exported="false" />
+47-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="edu.uncc.assignment3.Demographic"
+49-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:34:13-40
+50            android:exported="false" />
+50-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:36:9-40:56
+52            android:name="edu.uncc.assignment3.IdentificationActivity"
+52-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:37:13-51
+53            android:exported="false"
+53-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:38:13-37
+54            android:label="@string/title_activity_identification"
+54-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:39:13-66
+55            android:theme="@style/Theme.Assignment3" />
+55-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:40:13-53
+56        <activity
+56-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:41:9-49:20
+57            android:name="edu.uncc.assignment3.MainActivity"
+57-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:42:13-41
+58            android:exported="true" >
+58-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:43:13-36
+59            <intent-filter>
+59-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:44:13-48:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:45:17-69
+60-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:45:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:47:17-77
+62-->C:\Users\Zeke\OneDrive\000 Shared Folder\School\2024 Spring\4181\Assignment3\app\src\main\AndroidManifest.xml:47:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\5551653ec5a3ff260b3431cf9bc4d2cb\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+66            android:name="androidx.compose.ui.tooling.PreviewActivity"
+66-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\5551653ec5a3ff260b3431cf9bc4d2cb\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+67            android:exported="true" />
+67-->[androidx.compose.ui:ui-tooling-android:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\5551653ec5a3ff260b3431cf9bc4d2cb\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+68        <activity
+68-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\2700efc9b2df594c9f6f9ad21b1a4853\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:23:9-25:39
+69            android:name="androidx.activity.ComponentActivity"
+69-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\2700efc9b2df594c9f6f9ad21b1a4853\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:24:13-63
+70            android:exported="true" />
+70-->[androidx.compose.ui:ui-test-manifest:1.5.0] C:\Users\Zeke\.gradle\caches\transforms-3\2700efc9b2df594c9f6f9ad21b1a4853\transformed\ui-test-manifest-1.5.0\AndroidManifest.xml:25:13-36
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+74            android:authorities="edu.uncc.assignment3.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeke\.gradle\caches\transforms-3\740a0bac5ee3a0e18dc25f54b7830ede\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zeke\.gradle\caches\transforms-3\56fe2fa2adc7b3345f15180f7357f5e8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zeke\.gradle\caches\transforms-3\56fe2fa2adc7b3345f15180f7357f5e8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Zeke\.gradle\caches\transforms-3\56fe2fa2adc7b3345f15180f7357f5e8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+85        </provider>
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+97                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+100                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+103                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zeke\.gradle\caches\transforms-3\a334af6288b171f74edf031c5cccb3dc\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>
